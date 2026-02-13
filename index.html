@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Alik</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+
+  <body>
+    <header>
+      <nav class="main-nav">
+  <ul class="nav-list">
+    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#english">English</a></li>
+  </ul>
+</nav>
+      <section class="general">
+        <div class="photo">
+          <img
+  src="assets/c5ba81eb-3fb8-4850-bd48-e9a18d8a2aa4.jpg"
+  alt="My-photo"
+  class="my-photo"
+    >
+    </div>
+        <div class="card">
+      <h1>Alik Tadevosyan</h1>
+        <p>Motivated student with strong JavaScript fundamentals and growing experience
+  in HTML, CSS and Git. I enjoy building clean, responsive interfaces and
+  constantly improving my technical skills through practice and real projects.
+  My goal is to join a professional team, where I can grow as an engineer and
+  contribute to meaningful projects.</p>
+        </div>
+</section>
+    </header>
+
+    <main>
+      <div class="container">
+      <div class="big">
+        <div class="second">
+            <section class="card" id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>
+  Email:
+  <a href="mailto:aliktadevosyan04@gmail.com">
+    aliktadevosyan04@gmail.com
+  </a>
+</li>
+                    <li>
+  GitHub:
+  <a href="https://github.com/at0107" target="_blank" rel="noopener">
+    github.com/at0107
+  </a>
+</li>
+
+                    <li>Discord: aliktad</li>
+                    <li>Armenia</li>
+                </ul>
+            </section>
+            <section class="card" >
+                <h2>Code Example</h2>
+                <p>Simple function to calculate the average of array values</p>
+                <pre>
+                    <code>
+    function digPow(n, p) {
+    let digits = String(n).split('').map(Number);
+    
+    let sum = digits.reduce((acc, digit, index) => {
+        return acc + digit ** (p + index);
+    }, 0);
+    
+    return sum % n === 0 ? sum / n : -1;
+}
+                    </code>
+                </pre>
+            </section>
+            <section class="card" id="projects">
+                <h2>Projects</h2>
+                <ul class="projects-list">
+    <li class="project-item">
+      <h3>RS School CV</h3>
+      <p>
+        GitHub:
+        <a href="https://github.com/at0107/rsschool-cv" target="_blank" class="footer-link">
+          github.com/at0107/rsschool-cv
+        </a>
+      </p>
+    </li>
+  </ul>
+            </section>
+            
+          </div>
+        <div class="third">
+            <section class = "card" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>JavaScript(ES6+)</li>
+                    <li>HTML5/CSS3</li>
+                    <li>Git/GitHub</li>
+                    <li>Analytical thinking</li>
+                    <li>Problem solving</li>
+                </ul>
+            </section>
+                <section class="card" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>National Polytechnic University Of Armenia(College)(2019-2023)</h3>
+                    <p>Software for computing equipment and automated systems</p>
+                </li>
+                <li>
+                    <h3>Yerevan State University(2025 - till now)</h3>
+                    <p>Physics</p>
+                </li>
+                <li>
+                    <h3>TT Soft(2022)</h3>
+                    <p>HTML/CSS trainee</p>
+                </li>
+                <li>
+                    <h3>Aren Mehrabyan Foundation(2025)</h3>
+                    <p>JS Course</p>
+                </li>
+            </ul>
+        </section>
+        <section class="card" id="english">
+                <h2>English</h2>
+                <p>Upper-Intermediate(B2)</p>
+                <p>Able to communicate confidently in technical discussions and interviews.</p>
+            </section>
+      </div>
+    
+      </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+  <div class="footer-content">
+    <span>© 2026 Alik Tadevosyan</span>
+    <a
+      href="https://github.com/at0107"
+      target="_blank"
+      class="footer-link"
+    >
+      GitHub
+    </a>
+    <a
+      href="https://rs.school/courses/short-track"
+      target="_blank"
+      class="footer-link"
+    >
+      RS School
+    </a>
+      <img
+  src="assets/rs-school-logo.svg"
+  alt="RS School logo"
+  class="rs-logo"
+    >
+  </div>
+</footer>
+  </body>
+</html>
